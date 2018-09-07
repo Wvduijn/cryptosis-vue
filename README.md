@@ -1,5 +1,11 @@
 # cryptosis-vue
 
+## Description
+A cryptocurrency tracker dashboard app using the coinmarketcap api.
+This project is meant to be a showcase project.
+
+tools: VUE, VUE-ROUTER, VUEX, EXPRESS, AXIOS
+
 ## Project setup
 ```
 npm install
@@ -19,3 +25,4 @@ npm run build
 ```
 npm run lint
 ```
+# cryptosis-vue
