@@ -2,12 +2,12 @@
   <div class="ui segment coin desktop">
     <router-link :to="'/currency/' + coin.website_slug" class="ui grid">
         <div class="one wide column segment__bold">{{coin.rank}}</div>
-        <div class="two wide column segment__primary segment__coin">
+        <div class="three wide column segment__primary segment__coin">
         <img :src="`https://chasing-coins.com/api/v1/std/logo/${coin.symbol}`" class="segment__crypto-logo">
         {{coin.name}}
         </div>
         <div class="one wide column segment__bold">{{coin.symbol}}</div>
-        <div class="three wide column segment__bold">{{formatCurrency(coinQuotes.market_cap)}}</div>
+        <div class="two wide column segment__bold">{{formatCurrency(coinQuotes.market_cap)}}</div>
         <div class="two wide column segment__primary">{{formatCurrency(coinQuotes.price)}}</div>
         <div class="three wide column segment__bold">{{formatNumber(coin.circulating_supply)}} {{coin.symbol}}</div>
         <div
